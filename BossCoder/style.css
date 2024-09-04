@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 117px;
+    background-color: #ffffff;
+    padding: 0 20px;
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav-right li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-right button {
+    all: unset;
+    color: #004AAD;
+    font-weight: 600;
+    border: 1px solid #004AAD;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 16px;
+
+}
+
+/* hero section 👨‍💻 */
+.hero {
+    width: 100%;
+    height: 632px;
+    background: linear-gradient(0.90turn, #becadb 0%, #004AAD 100%);
+    padding: 50px 50px;
+    display: flex;
+    /* align-items: self-start; */
+    /* justify-content: space-evenly; */
+}
+
+.highlight {
+    color: #000000;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.hero-left ul li p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.hero-left li {
+    line-height: 40px;
+
+}
+
+.hero-left ul li::marker {
+    color: #ffffff;
+}
+
+.hero-left {
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-apply {
+    all: unset;
+    width: 30%;
+    background-color: #ffffff;
+    color: #004AAD;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+    /* box-shadow: ; */
+    filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+
+
+.hero-right {
+    position: relative;
+}
+
+.ellipse {
+
+    /* Ellipse 9 */
+
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    left: 290px;
+    top: 43px;
+    background: #d9d9d97d;
+    /* z-index: 99; */
+
+}
+
+.hero-right img {
+    position: absolute;
+    width: 600px;
+    top: 66px;
+    left: 170px;
+
+}
+
+.alumini {
+    width: 100%;
+    height: 800px;
+    background-color: #F8F9FA;
+}
+
+.alumini-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+
+}
+
+.alumini-text h2 {
+    font-weight: 600;
+}
+
+.alumini-companies img {
+    width: 100%;
+    /* height: 500px; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    padding-top: 50px;
+    /* font-size: 30px; */
+}
+
+.ourprograms {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #004AAD; */
+}
+
+.ourprogram-text {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-top: 50px; */
+}
+
+.ourprogram-text h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.ourprogram-text p {
+    font-size: 20px;
+}
+
+.ourprogram-card {
+    width: 100%;
+    height: 495px;
+    /* background-color: #cda3a3; */
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.ourprogram-card img {
+    position: absolute;
+    width: 600px;
+
+}
+
+.ourprogram-text-2 {
+    padding-top: 359px;
+    width: 30%;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.ourprogram-text-2 h3 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.ourprogram-text-2 p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.btn-view {
+    /* margin-top: 100px; */
+    all: unset;
+    width: 200px;
+    background-color: #ffffff;
+    color: #004AAD;
+    border: 1px solid #004AAD;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
