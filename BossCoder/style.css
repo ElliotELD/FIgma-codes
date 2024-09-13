@@ -149,7 +149,7 @@ nav {
 
 .alumini {
     width: 100%;
-    height: 800px;
+    height: auto;
     background-color: #F8F9FA;
 }
 
@@ -173,4 +173,112 @@ nav {
     /* text-align: center; */
     padding-top: 50px;
     /* font-size: 30px; */
+}
+
+.ourPrograms {
+    width: 100%;
+    height: 1500px;
+    /* background-color: #004AAD; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 50px;
+
+}
+
+.ourPrograms-Text {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ourPrograms-img {
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #F5F9FF;
+    border-bottom: 2px solid #4a8ce3;
+    border-radius: 10px 10px;
+    /* text-align: center; */
+    /* padding-top: 50px; */
+    /* font-size: 30px; */
+}
+
+.ourPrograms-img img {
+    width: 100%;
+    height: 300px;
+    /* border-radius: 20px 20px 0 0; */
+    border-radius: 9px 9px 0 0;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.ourPrograms-Text button {
+    all: unset;
+    color: #004AAD;
+    font-weight: 600;
+    border: 1px solid #004AAD;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+.review {
+    width: 100%;
+    height: 550px;
+    background-color: #b0d0fe71;
+}
+
+.review-Card {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid #004AAD;
+    border-radius: 10px;
+    background-color: #ffffff;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.review-card-top {
+    /* background-color: red; */
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.review-card-top img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.review-card-bottom {
+    width: 80%;
+    height: 300px;
+    /* background-color: rgb(146, 98, 98); */
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.review-Text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quoteRight {
+    margin-left: 280px;
 }
