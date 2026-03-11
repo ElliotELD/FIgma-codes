@@ -18,8 +18,8 @@
 
 .hero-right .ellipse {
     position: absolute !important;
-    width: 350px !important;
-    height: 350px !important;
+    width: 1050px !important;
+    height: 1050px !important;
     border-radius: 50% !important;
     background: linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 100%) !important;
     animation: pulse 3s ease-in-out infinite !important;
